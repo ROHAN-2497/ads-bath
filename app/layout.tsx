@@ -22,15 +22,7 @@ export default function RootLayout({
       <body className={inter.className}>
         {" "}
         <Navbar />
-        <ThemeProvider
-          attribute="class"
-          defaultTheme="dark"
-          enableSystem
-          disableTransitionOnChange
-        >
-          {children}
-        </ThemeProvider>
-        <Footer />
+        {children} <Footer />
       </body>
     </html>
   );
