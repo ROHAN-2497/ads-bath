@@ -5,8 +5,8 @@ import Image from "next/image";
 
 const Ads = () => {
   return (
-    <div>
-      <div className="container text-white  md:flex items-center justify-center w-full px-40 gap-10 mt-20">
+    <div className="pt-20">
+      <div className="container text-white  md:flex items-center justify-center w-full px-40 gap-10">
         <div className="w-[50%] flex flex-col gap-5">
           <div className="flex flex-col gap-5">
             {" "}

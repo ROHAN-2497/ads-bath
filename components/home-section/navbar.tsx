@@ -11,9 +11,9 @@ const Navbar = () => {
         <div className="text-white">
           <link rel="stylesheet" href="" />
 
-          <p className="relative after:absolute hover:bg-blue-600 hover:h-[2px] hover:w-[100%] cursor-pointer">
+          <li className="relative after:absolute hover:bg-blue-600 hover:h-[2px] hover:w-[100%] cursor-pointer">
             Home
-          </p>
+          </li>
           <link />
         </div>
       </div>
