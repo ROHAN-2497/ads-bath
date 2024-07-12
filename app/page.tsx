@@ -1,5 +1,6 @@
 import Banner from "@/components/banner/banner";
 import Ads from "@/components/home-section/ads";
+import DigitalDomin from "@/components/home-section/digitaldomin";
 import Service from "@/components/home-section/service";
 
 export default function Home() {
@@ -7,7 +8,8 @@ export default function Home() {
     <main className="bg-black">
       <Banner />
       <Ads />
-      <Service />
+      {/* <Service /> */}
+      <DigitalDomin />
     </main>
   );
 }
