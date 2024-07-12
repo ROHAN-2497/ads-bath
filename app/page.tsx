@@ -6,7 +6,7 @@ import Service from "@/components/home-section/service";
 
 export default function Home() {
   return (
-    <main className="bg-black">
+    <main className=" bg-gradient-to-r from-pink-300 via-blue-950 to-black">
       <Banner />
       <Ads />
       {/* <Service /> */}

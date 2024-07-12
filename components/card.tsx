@@ -4,7 +4,7 @@ import React from "react";
 const Card = () => {
   return (
     <div>
-      <div className="grid grid-cols-3 cursor-pointer">
+      <div className="md:grid grid-cols-3 cursor-pointer">
         <img src="/googleCard.png" alt="" />
         <img src="/fbCard.png" alt="" />
         <img src="/linkdinCard.png" alt="" />

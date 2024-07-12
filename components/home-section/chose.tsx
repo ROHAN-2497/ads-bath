@@ -1,8 +1,8 @@
 /* eslint-disable @next/next/no-img-element */
 const Chose = () => {
   return (
-    <div className="container mb-20 mt-20">
-      <div className="flex px-10 pb-20 gap-20">
+    <div className="container mb-20 mt-20 mx-auto">
+      <div className="md:flex px-10 pb-20 gap-20">
         {" "}
         <div className="w-[50%] ">
           <img className=" w-[483px] h-[503px]" src="/bgChose.png" alt="" />

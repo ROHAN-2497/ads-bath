@@ -5,7 +5,7 @@ import { Button } from "../ui/button";
 const Banner = () => {
   return (
     <div>
-      <div className="flex items-center justify-between px-20 text-white">
+      <div className="md:flex items-center justify-between px-20 text-white">
         <div className="w-[70%]">
           <h2 className=" text-7xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 via-white to-pink-500">
             Amazing website creation with Bantu agency
