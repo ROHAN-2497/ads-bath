@@ -3,6 +3,7 @@ import Ads from "@/components/home-section/ads";
 import Chose from "@/components/home-section/chose";
 import DigitalDomin from "@/components/home-section/digitaldomin";
 import Service from "@/components/home-section/service";
+import Testimonials from "@/components/home-section/testimonials";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       {/* <Service /> */}
       <DigitalDomin />
       <Chose />
+      <Testimonials />
     </main>
   );
 }
