@@ -56,6 +56,17 @@ const Testimonials = () => {
           <img className="w-[443px] h-[300px]" src="/bgChose.png" alt="" />
         </div>
       </div>
+      <div>
+        <div className="flex flex-col">
+          <h3 className="text-3xl font-semibold">
+            What Our Member Say About Us?
+          </h3>
+          <img className="" src="/image copy 7.png" alt="" />
+          <img className="" src="/image copy 6.png" alt="" />
+          <img className="" src="/image copy 5.png" alt="" />
+        </div>
+        <div></div>
+      </div>
     </div>
   );
 };
