@@ -2,6 +2,7 @@ import Banner from "@/components/banner/banner";
 import Ads from "@/components/home-section/ads";
 import Chose from "@/components/home-section/chose";
 import DigitalDomin from "@/components/home-section/digitaldomin";
+import Review from "@/components/home-section/review";
 import Service from "@/components/home-section/service";
 import Testimonials from "@/components/home-section/testimonials";
 
@@ -14,6 +15,7 @@ export default function Home() {
       <DigitalDomin />
       <Chose />
       <Testimonials />
+      <Review />
     </main>
   );
 }
