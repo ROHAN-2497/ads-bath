@@ -56,24 +56,32 @@ const Testimonials = () => {
           <img className="w-[443px] h-[300px]" src="/bgChose.png" alt="" />
         </div>
       </div>
-      <div className="flex mt-20 px-36 gap-20">
-        <div className="flex flex-col text-white gap-20 w-[35%]">
+      <div className="md:flex mt-20 px-36 gap-20">
+        <div className="flex flex-col text-white w-[35%]">
           <h3 className="text-3xl font-semibold">
             What Our Member Say About Us?
           </h3>
-          <div className="flex mx-20">
+          <div className="flex mb-4 mt-20">
             {" "}
             <img
               className="w-[56px] h-[56px]"
               src="/image copy 10.png"
               alt=""
             />
-            <img className="w-[56px] h-[56px]" src="/image copy 9.png" alt="" />
-            <img className="w-[56px] h-[56px]" src="/image copy 8.png" alt="" />
+            <img
+              className="w-[56px] h-[56px] -ml-6"
+              src="/image copy 9.png"
+              alt=""
+            />
+            <img
+              className="w-[56px] h-[56px] -ml-6"
+              src="/image copy 8.png"
+              alt=""
+            />
           </div>
           <p> 10K+ Satisfied Customer</p>{" "}
         </div>
-        <div className="w-[65%]">
+        <div className="w-[65%] cursor-pointer">
           <img src="/image copy 11.png" alt="" />
         </div>
       </div>
