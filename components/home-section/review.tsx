@@ -34,7 +34,7 @@ const Review = () => {
           <img src="/image copy 11.png" alt="" />
         </div>
       </div>{" "}
-      <div className="mt-20 cursor-pointer">
+      <div className="mt-20 cursor-pointer pb-20">
         <img src="/image copy 15.png" alt="" />
       </div>
     </div>
