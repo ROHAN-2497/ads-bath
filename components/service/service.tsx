@@ -1,7 +1,7 @@
 import React from "react";
 
 const Service = () => {
-  return <div className="text-white">Servce</div>;
+  return <div>Service</div>;
 };
 
 export default Service;
