@@ -4,7 +4,7 @@ import Chose from "@/components/home-section/chose";
 import DigitalDomin from "@/components/home-section/digitaldomin";
 import Review from "@/components/home-section/review";
 import Testimonials from "@/components/home-section/testimonials";
-import Service from "@/components/service/Service";
+import Service from "@/components/service/service";
 
 export default function Home() {
   return (
